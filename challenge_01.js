@@ -12,8 +12,8 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 var x = prompt ("Enter a Value","0");
 var y = prompt ("Enter a Value","0");
 
-var num1 = parseInt (x);
-var num2 = parseInt (y);
+var num1 = parseFloat (x);
+var num2 = parsefloat (y);
 
 let sum = (num1 + num2); 
 
