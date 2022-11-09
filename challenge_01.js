@@ -9,11 +9,11 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-var x = prompt ("Enter a Value","0");
-var y = prompt ("Enter a Value","0");
+var x = prompt ("Enter a integer","0");
+var y = prompt ("Enter a integer","0");
 
-var num1 = parseFloat (x);
-var num2 = parsefloat (y);
+var num1 = parseInt(x);
+var num2 = parseInt(y);
 
 let sum = (num1 + num2); 
 
@@ -33,3 +33,11 @@ let number1 = prompt("Enter your 1st Number: ");
     let number2 = prompt("Enter your 2nd Number: ");
     let result = parseFloat(number1) + parseFloat(number2);
     console.log(result);
+
+    //4. Variante //
+
+    console.log(
+        "die Summe ist: " +
+        (parseFloat(prompt ("Bitte eine Zahl angeben"))+
+        parseFloat(prompt ("Bitte zweite Zahl angeben")))
+    );
