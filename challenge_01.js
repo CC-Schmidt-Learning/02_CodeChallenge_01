@@ -18,3 +18,18 @@ var num2 = parseInt (y);
 let sum = (num1 + num2); 
 
 console.log ("Die Summe der Zahlen ist: " + sum);
+
+
+// 2. variante //
+
+let a = +prompt ("Enter first number");
+let b = +prompt ("Enter second number");
+
+alert(a+b);
+
+//3. Variante //
+
+let number1 = prompt("Enter your 1st Number: ");
+    let number2 = prompt("Enter your 2nd Number: ");
+    let result = parseFloat(number1) + parseFloat(number2);
+    console.log(result);
