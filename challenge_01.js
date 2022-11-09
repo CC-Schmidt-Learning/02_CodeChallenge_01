@@ -12,9 +12,9 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 var x = prompt ("Enter a Value","0");
 var y = prompt ("Enter a Value","0");
 
-var num3 = parseInt (x);
-var num4 = parseInt (y);
+var num1 = parseInt (x);
+var num2 = parseInt (y);
 
-let sum = (num3 + num4); 
+let sum = (num1 + num2); 
 
 console.log ("Die Summe der Zahlen ist: " + sum);
